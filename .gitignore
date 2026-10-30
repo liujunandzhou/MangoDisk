@@ -18,6 +18,9 @@
 # Local-only workspace
 /.local/
 
+# Bundled disk-cleanup skill binary (build output; see AGENTS.md)
+/.claude/skills/disk-cleanup/bin/
+
 # Local environment and logs
 .env
 .env.*
